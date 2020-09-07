@@ -55,4 +55,8 @@ Add new physical disk. Boot.
 
 # General
 * How would you ensure any change made to this Dockerfile is source controlled, approved, tested and deployed. Explain which tools you will use as if this was going into a production environment.
+I would use a deployment pipeline which be made up of the following:
+- Git Repo 
+- Gerrir/Bit bucket for version control and approval. This is where a pull request will be logged and and need to be approved before being merged/deployed.
+- A deployment tool to automate the deployment to the environment and run unit tests on the syntax to ensure the standard.
 * Commit and push your changes.
